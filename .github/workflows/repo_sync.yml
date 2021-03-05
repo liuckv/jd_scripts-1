@@ -1,7 +1,6 @@
 # File: .github/workflows/repo-sync.yml
 name: sync-LXK9301-scripts
 on:
-    push:
     schedule:
         - cron: '58 15 * * 0-6'
   workflow_dispatch:
